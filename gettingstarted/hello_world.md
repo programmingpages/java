@@ -25,10 +25,10 @@ In this stage java code (.java) compiled into [JVM](https://en.wikipedia.org/wik
 ```sh
 javac HelloWorld.java
 ```
-> The `javac HelloWorld.java` command\
-> Reads the **HelloWorld.java** file\
-> Check syntax errors in the code, and prints the errors\
-> If no syntax errors were found, then generates the **HelloWorld.class** file
+> The `javac HelloWorld.java` command,
+> reads the **HelloWorld.java** file,
+> check syntax errors in the code, and prints the errors,
+> if no syntax errors were found, then generates the **HelloWorld.class** file
 
 
 #### 2. Execution
@@ -36,6 +36,6 @@ In this stage compiled code (.class) file executed by [JVM](https://en.wikipedia
 ```sh
 java HelloWorld
 ```
-> The `java HelloWorld` command\
-> Start the [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine)\
-> Feed the **HelloWorld.class** file to [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) for executing
+> The `java HelloWorld` command
+> start the [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine),
+> feed the **HelloWorld.class** file to [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) for executing
