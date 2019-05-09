@@ -18,16 +18,24 @@ Output:
 Hello, World !
 ```
 
-#### Running a java program
-Compile the program
+### Running a java program
+Running java program includes two steps
+#### 1. Compilation
+In this stage java code (.java) compiled into [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) understandable code (.class).
 ```sh
 javac HelloWorld.java
 ```
-This command compile your java code file (.java) into jvm understandable code file (.class). After done HelloWorld.class file will be created
+> The `javac HelloWorld.java` command\
+> Reads the **HelloWorld.java** file\
+> Check syntax errors in the code, and prints the errors\
+> If no syntax errors were found, then generates the **HelloWorld.class** file
 
-Run the program
+
+#### 2. Execution
+In this stage compiled code (.class) file executed by [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine)
 ```sh
 java HelloWorld
 ```
-
-This command read and execute the HelloWorld.class file
+> The `java HelloWorld` command\
+> Start the [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine)\
+> Feed the **HelloWorld.class** file to [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) for executing
