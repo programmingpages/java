@@ -1,7 +1,7 @@
 Lets start with a "Hello World" java program
 
 Source:
-```java {.line-numbers}
+```java
 // File name: HelloWorld.java
 // Location: master/programmingpages/gettingstarted/
 package programmingpages.gettingstarted;
