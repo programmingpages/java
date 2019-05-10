@@ -1,4 +1,4 @@
-### Understanding ot `sysout`
+### Understanding of `sysout`
 
 Code:
 ```java
