@@ -29,11 +29,3 @@ int | 4 bytes | -2<sup>32</sup> to 2<sup>32</sup> - 1 | 0
 long | 8 bytes | -2<sup>63</sup> to 2<sup>63</sup> - 1 | 0
 float | 4 bytes | | 0.0
 double | 8 bytes | | 0.0
-
-1. #### `boolean` data type:
-   - The boolean data type has only two possible values, `true` and `false`
-   - Use this type for simple flags, that track true/false condition
-   - Example code:
-     ```java
-     boolean isCompleted = false;
-     ```
